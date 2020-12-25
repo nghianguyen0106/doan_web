@@ -1,0 +1,40 @@
+.box__info
+{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.box__info form
+{
+	width: 50%;
+	border: 1px solid grey;
+	padding: 2rem 2rem;
+}
+.box__info form div
+{
+	margin-left: 10%;
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+}
+.box__info .r
+{
+	text-align: left;
+	width: 35%;
+}
+.box__info form input
+{
+	width: 60%;
+	border: 1px solid lightgray;
+	outline: none;
+	border-radius: 10px;
+	padding-left: 1rem;
+}
+.box__info form input[type="file"]
+{
+	border:0;
+	color:blue;
+	padding-left: 0;
+}

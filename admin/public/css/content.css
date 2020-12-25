@@ -1,0 +1,9 @@
+.tbl__db
+{
+	width: 100%;
+	text-align: center;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+}
+.tbl__db tr td .mota img{width: 150px;height:150px;}

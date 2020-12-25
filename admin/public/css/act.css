@@ -1,0 +1,92 @@
+.add
+{
+	padding: 5px 20px 5px 20px;
+	background-color: #394895;
+	color:white;
+	font-weight: bold;
+}
+.form__search{width: 60%;}
+.input__search, .btn__search{width: 10%;outline: none;}
+.input__search:focus, .btn__search:focus{outline: none;}
+.btn__search{position: relative;margin-left: -0.5rem;border: 0;font-size: 21px;padding: 1px 0 2px 0;border-radius: 0 10px 10px 0;background-color: #243F71;color: white; }
+.btn__search i{position: relative;}
+.btn__search::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background-color:  #4DAA4D;
+	border-radius: 0 10px 10px 0;
+	transform-origin: 50%;
+	transform: scaleX(0);
+	transition: 0.4s;
+}
+.btn__search:hover:before{ transform:scaleX(1);transition: 0.4s;  }
+.btn__search:hover i{ z-index: 11; transition: 0.6s }
+.btn__search:hover{ z-index: 10;background-color:#4DAA4D;  transition: 0.4s; }
+
+.add__form h3{color: #394895}
+.add__form input{width: 100%;border:0;border-bottom:1px solid black;;outline: none;}
+.form__space
+{
+	width: 100%;
+	text-align: center;
+}
+.add__form .form__space .btn__add,.add__form .form__space .btn__edit
+{
+	position: relative;
+	width: 200px;
+	padding: 0.5rem 0;
+	border:0;
+	outline: none;
+	background-color: #243F71;
+	color:white;
+}
+.add__form .form__space .btn__add::before
+{
+	content: "Thêm";
+}
+.add__form .form__space .btn__edit::before
+{
+	content: "Sửa";
+}
+.add__form .form__space .btn__add::before,.add__form .form__space .btn__edit::before
+{
+	
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	color:white;
+	padding-top: 0.5rem;
+	background-color: #4DAA4D;
+	transform-origin:50%;
+	transform: scaleX(0);
+	transition: 0.5s;
+}
+.add__form .form__space .btn__add:hover:before,.add__form .form__space .btn__edit:hover:before
+{
+	transform: scaleX(1);
+	transition: 0.5s;
+}
+.input_readonly
+{
+	background-color: grey;
+}
+.spTen
+{
+	width: 10rem;
+}
+.mota
+{
+	width: 10rem;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;	
+}
+

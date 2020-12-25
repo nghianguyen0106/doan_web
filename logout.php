@@ -1,0 +1,18 @@
+<?php 
+session_start();
+unset($_SESSION["khMa"]);
+unset($_SESSION["khTen"]);
+unset($_SESSION["khSdt"]);
+unset($_SESSION["khGioitinh"]);
+unset($_SESSION["khGioitinh"]);
+unset($_SESSION["khNgaysinh"]);
+unset($_SESSION["khDiachi"]);
+unset($_SESSION["khEmail"]);
+unset($_SESSION["khHinh"]);
+unset($_SESSION["khQuyen"]);
+?>
+			<script>
+				window.location='login.php';
+			</script>
+			<?php
+?>
