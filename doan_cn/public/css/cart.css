@@ -1,0 +1,10 @@
+.tbl__cartItem--box {
+	border-bottom:1px solid lightgrey; 
+	text-align: center;
+}
+.show__product .row
+{
+	border-bottom:1px solid lightgrey; 
+	text-align: center;
+}
+.tbl__total{position: relative;text-align: left;}
